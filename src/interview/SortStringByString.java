@@ -32,14 +32,4 @@ public class SortStringByString {
         resultStr.append(remainStr);
         return resultStr.toString();
     }
-    /**
-     * @param args
-     * 
-     * SquareInterview.sortBy("banana", "bac");
-     *  SquareInterview.sortBy("abcaaccc", "bac");
-     */
-    public static void main(String[] args) {
-
-    }
-
 }
