@@ -21,8 +21,8 @@ public class SortStringByString {
         Collections.sort(ca, new Comparator<Character>() {
             @Override
             public int compare(Character c1, Character c2) {
-                Integer c1Order = (orderMap.get(c1) != null) ? orderMap.get(c1) : 0;
-                Integer c2Order = (orderMap.get(c2) != null) ? orderMap.get(c2) : 0;
+                Integer c1Order = (orderMap.get(c1) != null) ? orderMap.get(c1) : Integer.MAX_VALUE;
+                Integer c2Order = (orderMap.get(c2) != null) ? orderMap.get(c2) : Integer.MAX_VALUE;
                 System.out.println(c1 + "-" + c2 + "=" + (c1Order - c2Order));
                 
                 return c1Order - c2Order;

@@ -26,13 +26,13 @@ public class TestSortStringByString {
     
     @Test
     public void testSortStringUsingSort() {
-//        Assert.assertEquals("banana", SortStringByString.SortStringUsingSort("banana", ""));
-//        Assert.assertEquals("", SortStringByString.SortStringUsingSort("", "bac"));
+        Assert.assertEquals("banana", SortStringByString.SortStringUsingSort("banana", ""));
+        Assert.assertEquals("", SortStringByString.SortStringUsingSort("", "bac"));
         Assert.assertEquals("baaann", SortStringByString.SortStringUsingSort("banana", "bac"));
-//        Assert.assertEquals("banana", SortStringByString.SortStringUsingSort("banana", "efg"));
-//        Assert.assertEquals("aaabnn", SortStringByString.SortStringUsingSort("banana", "a"));
-//        Assert.assertEquals("bnnaaa", SortStringByString.SortStringUsingSort("banana", "bn"));
-//        Assert.assertEquals("baaacccc", SortStringByString.SortStringUsingSort("abcaaccc", "bac"));
+        Assert.assertEquals("banana", SortStringByString.SortStringUsingSort("banana", "efg"));
+        Assert.assertEquals("aaabnn", SortStringByString.SortStringUsingSort("banana", "a"));
+        Assert.assertEquals("bnnaaa", SortStringByString.SortStringUsingSort("banana", "bn"));
+        Assert.assertEquals("baaacccc", SortStringByString.SortStringUsingSort("abcaaccc", "bac"));
 
     }
 
